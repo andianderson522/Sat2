@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.sat2.dice.DiceRollerTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 8, Skipped: 0, Time elapsed: 0.211 s <<< FAILURE! -- in com.sat2.dice.DiceRollerTest
+Tests run: 9, Failures: 1, Errors: 8, Skipped: 0, Time elapsed: 0.212 s <<< FAILURE! -- in com.sat2.dice.DiceRollerTest
 com.sat2.dice.DiceRollerTest.shouldRollBasicDice -- Time elapsed: 0.040 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Roll result should not be null ==> expected: not <null>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
@@ -14,7 +14,7 @@ org.opentest4j.AssertionFailedError: Roll result should not be null ==> expected
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[1] -- Time elapsed: 0.040 s <<< ERROR!
+com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[1] -- Time elapsed: 0.033 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceCount()" because "result" is null
 	at com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(DiceRollerTest.java:38)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -46,7 +46,7 @@ java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceC
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[2] -- Time elapsed: 0.004 s <<< ERROR!
+com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[2] -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceCount()" because "result" is null
 	at com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(DiceRollerTest.java:38)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -78,7 +78,7 @@ java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceC
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[3] -- Time elapsed: 0.003 s <<< ERROR!
+com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[3] -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceCount()" because "result" is null
 	at com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(DiceRollerTest.java:38)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -110,7 +110,7 @@ java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceC
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[4] -- Time elapsed: 0.002 s <<< ERROR!
+com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[4] -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceCount()" because "result" is null
 	at com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(DiceRollerTest.java:38)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -142,7 +142,7 @@ java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceC
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[5] -- Time elapsed: 0.002 s <<< ERROR!
+com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[5] -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceCount()" because "result" is null
 	at com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(DiceRollerTest.java:38)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -174,7 +174,7 @@ java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceC
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[6] -- Time elapsed: 0.002 s <<< ERROR!
+com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[6] -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceCount()" because "result" is null
 	at com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(DiceRollerTest.java:38)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -206,7 +206,7 @@ java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceC
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[7] -- Time elapsed: 0.002 s <<< ERROR!
+com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(short, short)[7] -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceCount()" because "result" is null
 	at com.sat2.dice.DiceRollerTest.shouldRollDifferentDiceTypes(DiceRollerTest.java:38)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -238,7 +238,7 @@ java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getDiceC
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.sat2.dice.DiceRollerTest.shouldCalculateTotalForMultipleDice -- Time elapsed: 0.001 s <<< ERROR!
+com.sat2.dice.DiceRollerTest.shouldCalculateTotalForMultipleDice -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "com.sat2.dice.DiceResult.getTotal()" because "result" is null
 	at com.sat2.dice.DiceRollerTest.shouldCalculateTotalForMultipleDice(DiceRollerTest.java:50)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
