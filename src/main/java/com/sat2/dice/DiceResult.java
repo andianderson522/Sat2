@@ -5,12 +5,12 @@ import java.util.List;
 
 @Value
 public class DiceResult {
-    short diceCount;
-    short diceSides;
+    int diceCount;
+    int diceSides;
     List<Integer> results;
     int total;
 
-    public DiceResult(short diceCount, short diceSides, List<Integer> results) {
+    public DiceResult(int diceCount, int diceSides, List<Integer> results) {
         this.diceCount = diceCount;
         this.diceSides = diceSides;
         this.results = List.copyOf(results);
